@@ -1,4 +1,8 @@
-# About
+# Niagahoster Landing Page for Front End Test
+
+## Getting Started
+
+### About
 
 This is a landing page of **Niagahoster** website based on mockup given using **Bootstrap** as framework CSS for design and MySQL as database.
 
@@ -7,9 +11,11 @@ All the icons and the other images has been provided.
 To make it easy to deploy, SQL is chosen as database. The database file is niagahoster_test.sql` in the root directory.
 
 
-# Project Structure
+### Project Structure
 
 Here is the directory structure for the project:
+
+```bash
 
 [frontend]/
 ├── [assets]/
@@ -24,7 +30,9 @@ Here is the directory structure for the project:
 ├── index.php
 └── README.md
 
+```
 
-# Regards
+
+### Author
 
 Alifia R
