@@ -703,6 +703,19 @@ hr{
     color:#606060;
 }
 
+.footer__pembayaran object{
+    max-height:25px; 
+    margin-right:5px;
+    padding: 5px;
+    border:0.5px solid #606060;
+    border-radius:5px;
+}
+
+/* .footer__pembayaran path{
+    color:red;
+} */
+
+
 .footer ul{
     list-style-type:none;
     margin: 0;
