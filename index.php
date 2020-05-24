@@ -45,8 +45,8 @@
       </div>
       <nav class="navbar navbar-expand-lg navbar-light navbar-fixed">
         <div class="container">
-          <a class="navbar-brand" href="#"><img class="img-fluid d-none d-md-block" src="assets/images/logo.png" alt="" height="" width="50%"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#"><img class="img-fluid d-md-block" src="assets/images/logo.png" alt="" height="" width="120px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="position:relative;z-index=99;">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -90,23 +90,23 @@
     <!-- PHP Hosting End-->
 
     <!-- PHP 2 -->
-    <div class="container" style="margin-top:300px;margin-bottom:70px;">
+    <div class="container" style="">
       <div class="row php-2 justify-content-center" style="">
         <div class="col-10" >
           <div class="row text-center" >
-            <div class="col-lg" style="position: absolute; bottom: 0; text-align:left">
+            <div class="col-lg" id="php-2-left" >
               <object data="assets/svg/php-zendguard.svg" type="image/svg+xml">
                 <img src="assets/svg/php-zendguard.svg" />
               </object>
               <p class="">PHP Zend Guard Loader</p>
             </div>
-            <div class="col-lg" style="position: absolute; bottom: 0; text-align:center">
+            <div class="col-lg" id="php-2-center">
               <object data="assets/svg/php-composer.svg" type="image/svg+xml">
                   <img src="assets/svg/php-zendguard.svg" />
                 </object>              
               <p class="">PHP Composer</p>
             </div>
-            <div class="col-lg" style="position: absolute; bottom: 0; text-align:right;">
+            <div class="col-lg" id="php-2-right">
               <object data="assets/svg/php-ioncube.svg" type="image/svg+xml">
                 <img src="assets/svg/php-zendguard.svg" />
               </object>
@@ -388,7 +388,7 @@
               <li><i class="fa fa-check-circle"></i> Tersedia <b>Composer</b> dan <b>SSH</b> untuk menginstall packages pilihan Anda.</li>
             </ul>
             <p>Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</p>
-            <div class="">
+            <div class="col-lg" id="btn-pilih">
               <a href="#" class="btn btn-lg btn-pilih">Pilih Hosting Anda</a>
             </div>
           </div>
@@ -493,7 +493,7 @@
           <div class="col-lg-6">
             <h3>Linux Hosting yang Stabil dengan Teknologi LIVE</h3>
             <p>SuperMicro <b>Intel Xeon 24-Cores</b> server dengan RAM <b>128 GB</b> dan teknologi <b>LIVE CloudLinux</b> untuk stabilitas server Anda. Dilengkapi dengan <b>SSD</b> untuk kecepatan <b>MySQL</b> an caching. Apache loading balancer berbasis LiteSpeed Technologies. <b>CageFS</b> security, <b>Raid-10</b> protection dan auto backup untuk keamanan website PHP Anda</p>
-            <div class="">
+            <div class="col-lg-6" id="linux-img">
               <a href="#" class="btn btn-lg btn-pilih">Pilih Hosting Anda</a>
             </div>
           </div>
