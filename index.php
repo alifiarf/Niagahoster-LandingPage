@@ -642,6 +642,26 @@
       <div class="row mt-5">
         <div class="col-12 col-md-7">
           <h5 class="footer__column-title">Pembayaran</h5>
+            <div class="footer__pembayaran">
+              <object data="assets/svg/bca.svg" type="image/svg+xml">
+                <img src="assets/svg/bca.svg"/>
+              </object>
+              <object data="assets/svg/mandiri.svg" type="image/svg+xml" >
+                <img src="assets/svg/mandiri.svg" />
+              </object>
+              <object data="assets/svg/bni.svg" type="image/svg+xml">
+                <img src="assets/svg/bni.svg" />
+              </object>
+              <object data="assets/svg/bca.svg" type="image/svg+xml">
+                <img src="assets/svg/bca.svg"/>
+              </object>
+              <object data="assets/svg/mandiri.svg" type="image/svg+xml" >
+                <img src="assets/svg/mandiri.svg" />
+              </object>
+              <object data="assets/svg/bni.svg" type="image/svg+xml">
+                <img src="assets/svg/bni.svg" />
+              </object>
+            </div>
           <p class="footer__pembayaran  text-center text-md-left">Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif! </p>
         </div>
       </div>
