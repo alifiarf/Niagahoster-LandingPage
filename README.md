@@ -8,7 +8,7 @@ This is a landing page of **Niagahoster** website based on mockup given using **
 
 All the icons and the other images has been provided.
 
-To make it easy to deploy, SQL is chosen as database. The database file is niagahoster_test.sql` in the root directory.
+To make it easy to deploy, SQL is chosen as database. The database file is `niagahoster_test.sql` in the root directory.
 
 
 ### Project Structure
